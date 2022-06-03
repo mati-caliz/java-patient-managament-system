@@ -1,0 +1,17 @@
+/* Requerimientos: */
+
+- Las tecnologías utilizadas son Java, Java Swing, UML, SQL y MySQL.
+
+- La idea de este proyecto es hacer un software con interfaz gráfica que primero permita a un admin 
+loguearse mediante un usuario (por defecto admin) y contraseña (por defecto admin).
+
+- Si el nombre de usuario y contraseña son correctos se ingresa a una interfaz que tiene las opciones de 
+registrar nuevos pacientes ingresando DNI, nombre y apellido, obra social, ciudad y localidad de residencia, email,
+celular. Los pacientes registrados se cargan en una base de datos.
+
+- El sistema debe permitir cargar un nuevo turno a un paciente registrado, ingresando el dia y mes, y el médico 
+y debe verificar que sea válido, devolviendo los horarios disponibles para que el admin pueda elegir alguno. 
+Los turnos registrados se cargan en una base de datos.
+
+- El sistema debe permitir buscar a un paciente según cualquier dato ingresado como DNI, nombre, apellido, email,
+celular, etc. Y devolver los pacientes que cumplan con las condiciones ingresadas.
